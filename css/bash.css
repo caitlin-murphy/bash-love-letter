@@ -40,9 +40,12 @@
  /*page styles*/
 
 .home{
-	background: rgba(165, 10, 10, 0.71);
-	font-family: sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-size: 62.5%;
+	background: url(../img/halftone.png) repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .container{
@@ -51,23 +54,44 @@
 }
 
 
+.header-container{
+	font-family: 'Noto Serif', serif;
+	font-size: 3em;
+	text-align: center;
+	vertical-align: center;
+	height: 300px;
+	color: rgba(255, 255, 255, 1);
+	background:rgba(118, 68, 106, 0.65);
+}
+
 .banner{
 	background-image:url(../img/heart-wood.jpg);
 	height: 300px;
 }
 
-h1{
-	font-size: 1.9em;
+.text{
+	font-family: 'Noto Serif', serif;
+	color:rgba(157, 80, 138, 1);
+	font-size:1.5em;
+}
+
+.commands{
+	color:rgba(157, 80, 138, 1);
+	font-weight: 600;
+}
+
+section{
+	text-align: center;
+	font-size: 1.6em;
+	line-height: 20px;
+	background: rgba(255, 255, 255, 0.5);
+	padding-top: 20px;
+	margin-top: 20px;
 }
 
 p{
-	font-size: 1.4em;
+	
 	margin-bottom: 10px;
 }
 
-.box{
-	background: rgba(255, 255, 255, 0.65);
-	border: 1px solid rgba(0, 0, 0, 0.5);
-	padding: 5px 10px;
-	margin-bottom: 15px;
-}
+
