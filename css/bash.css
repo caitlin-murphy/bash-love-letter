@@ -58,6 +58,7 @@
 	font-family: 'Noto Serif', serif;
 	font-size: 3em;
 	text-align: center;
+	border-bottom: solid rgba(118, 68, 106, 1) 10px;
 	vertical-align: center;
 	height: 300px;
 	color: rgba(255, 255, 255, 1);
@@ -86,6 +87,7 @@ section{
 	line-height: 20px;
 	background: rgba(255, 255, 255, 0.5);
 	padding-top: 20px;
+	padding-bottom: 20px;
 	margin-top: 20px;
 }
 
